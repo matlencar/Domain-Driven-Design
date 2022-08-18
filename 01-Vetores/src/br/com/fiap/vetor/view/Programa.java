@@ -46,13 +46,15 @@ public class Programa {
 		//Calcular o valor total a ser pago.
 		for (int i = 0; i < produtos.length; i++) {
 			//Calcular preço do produto com o desconto
-			double precoComDesconto = produtos[i].getPreco() - (produtos[i].getPreco() * produtos[i].getDesconto() / 100);
+			//double precoComDesconto = produtos[i].getPreco() - (produtos[i].getPreco() * produtos[i].getDesconto() / 100);
 			
 			//Calcular o preço final do produto: preço com desconto * quantidade
-			double precoProdutoFinal = precoComDesconto * produtos[i].getQuantidade();
+			//double precoProdutoFinal = precoComDesconto * produtos[i].getQuantidade();
 			
 			//Adicionar o preço final do produto na variavel do preço total da compra
-			valorTotal += precoProdutoFinal;
+			//valorTotal += precoProdutoFinal;
+			
+			valorTotal += produtos[i].calcularPrecoFinal();
 			
 		}
 		//Exibir o preço total a ser pago
