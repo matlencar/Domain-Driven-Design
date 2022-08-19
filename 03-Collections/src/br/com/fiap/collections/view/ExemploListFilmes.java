@@ -10,11 +10,11 @@ public class ExemploListFilmes {
 	public static void main(String[] args) {
 		
 		//Criar uma lista de filmes.
-		List<Filme> filmes = new ArrayList<Filme>();
+		List<Filme> filmes = new ArrayList<>();
 		
 		
 		//Adicionar 2 filmes na lista.
-		filmes.add("Zorro");
+		filmes.add();
 		
 		
 		//Exibir os dados do filme da lista.

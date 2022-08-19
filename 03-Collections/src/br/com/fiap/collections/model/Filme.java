@@ -8,7 +8,7 @@ public class Filme {
 	
 	
 	//Construtor vazio
-	public Filme() {}
+	//public Filme() {}
 	
 	//Construtor com argumentos
 	public Filme(String noome, int duracao, String genero) {
