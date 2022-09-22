@@ -8,7 +8,7 @@ public class Filme {
 	
 	
 	//Construtor vazio
-	//public Filme() {}
+	public Filme() {}
 	
 	//Construtor com argumentos
 	public Filme(String noome, int duracao, String genero) {
@@ -36,4 +36,9 @@ public class Filme {
 		this.genero = genero;
 	}
 
+	@Override
+	public String toString() {
+		return  nome + ", duracao=" + duracao + ", genero=" + genero;
+	}
+	
 }
